@@ -1,0 +1,32 @@
+# Credentials and machine-specific configuration
+config/config.ini
+mcp_core/amp_server.py
+.env
+.env.*
+!.env.example
+
+# Documentation and local notes are intentionally excluded from the first code-only upload
+*.md
+*.docx
+*.pdf
+
+# Logs, test outputs, and local IDE/runtime artifacts
+log/
+test/result/
+test/*.txt
+__pycache__/
+**/__pycache__/
+.idea/
+.DS_Store
+*.log
+*.py[cod]
+
+# Large local datasets and model artifacts
+train/data/
+test/data/
+train/pretrained/
+train/saved/
+*.ckpt
+*.bin
+*.pt
+*.pth
